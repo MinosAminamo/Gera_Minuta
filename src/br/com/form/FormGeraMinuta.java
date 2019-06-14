@@ -5,22 +5,30 @@
  */
 package br.com.form;
 
-import br.com.utilitarios.ArrayListOrganiza;
-import br.com.utilitarios.FixedLengthDocument;
-import br.com.utilitarios.IntegerDocument;
-import br.com.utilitarios.conexao;
-import br.com.utilitarios.imprime;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
-import javax.swing.*;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+
+import br.com.utilitarios.ArrayListOrganiza;
+import br.com.utilitarios.FixedLengthDocument;
+import br.com.utilitarios.IntegerDocument;
+import br.com.utilitarios.imprime;
 
 /**
  *
  * @author Welington Zanon
  */
+@SuppressWarnings("serial")
 public class FormGeraMinuta extends FormModel {
 
 	// variaveis___________________________________________________

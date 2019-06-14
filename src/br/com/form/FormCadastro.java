@@ -5,20 +5,21 @@
  */
 package br.com.form;
 
-import br.com.utilitarios.FixedLengthDocument;
-import br.com.utilitarios.IntegerDocument;
-import br.com.utilitarios.conexao;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.SQLException;
+
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFormattedTextField;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.text.MaskFormatter;
+
+import br.com.utilitarios.FixedLengthDocument;
+import br.com.utilitarios.IntegerDocument;
+import br.com.utilitarios.conexao;
 
 /**
  *
